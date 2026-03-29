@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>CV</title>
-</head>
-<body>
-    <h1>Aleksandrova Venera</h1>
-    <h2>Junior Frontend Developer</h2>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>Faizieva Venera</title>
+  </head>
+  <body>
+  <header>
+<nav>
+  <ul class="header">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#languages">Languages</a></li>
+    
+  </ul>
+</nav>
+  </header>
+  <main>
+    <div class="left">
+      <article class="contact">
+        <div class="contact-2-columns">
+      <img src="./images/foto.jpg" alt="foto" class="image">
+      <div class="contact__desc">
+      <h1>Faizieva Venera</h1>
+      <p class="position">Junior Frontend</p>
+    </div>
+    </div>
+      <ul>
+        <li>E-mail:&nbsp; <a href="mailto:v.faizyeva@gmail.com">v.faizyeva@gmail.com</a></li>
+        <li>Discord: Венера (#3239)</li>
+        <li>Location: Kazan, Russia</li>
+      </ul>
+    </article>
+      <article class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><img src="./images/html.png" alt="html">HTML</li>
+        <li><img src="./images/css.png" alt="css">CSS</li>
+        <li><img src="./images/sass.png" alt="sass">SASS</li>
+        <li><img src="./images/js.png" alt="js">JavaScript</li>
+        <li><img src="./images/github.svg" alt="git">GitHub </li>
+        <li><img src="./images/figma.svg" alt="figma">Figma</li>
+        <li><img src="./images/tailwindcss-mark.svg" alt="tailwind">Tailwind</li>
+        <li><img src="./images/webpack.svg" alt="webpack">Webpack</li>
+      </ul>
+    </article>
+  </div>
+    <div class="right"> 
+<article class="aboutme">
+<h2>About me</h2>
+
+<p>
+    I like to study and learn something new. I like to read books, do physical education, listen to music of different genres. I like to work and see the results of my work.
+</p>
+</article>
+      <article class="education">
+        <h2>Education</h2>
+        <ul class="education_list" id="education">
+          <li><img src="./images/point.svg" alt="point">Karagangy State Technical Univercity</li>
+          <li>Automation and management</li>
+          <li><img src="./images/point.svg" alt="point">RSSchool</li>
+          <li class="school">JS School.Stage 0</li>
+          <li class="school">JS School.Stage 1</li>
+        </ul>
+        </article>  
+        <article>
+            <h2>Example code</h2>
+            <div>
+                <pre>
+function playSong() {
+  if (!isPlaying) {
+    audio.play();
+    isPlaying = true;
+    controlIcon.classList.remove("fa-play");
+    controlIcon.classList.add("fa-pause");
+  } else {
+    audio.pause();
+    isPlaying = false;
+    controlIcon.classList.remove("fa-pause");
+    controlIcon.classList.add("fa-play");
+  }
+}
+                </pre>
+            </div>
+        </article>
+        <article class="languages" id="languages">
+          <h2>Languages</h2>
+          <ul class="lang">
+            <li><img src="./images/point.svg" alt="point"> Russian - native speaker</li>
+            <li><img src="./images/point.svg" alt="point">English - A2</li>
+          </ul>
+        </article>
+      <article class="experience" id="projects">
+        <h2>My projects</h2>      
+        <a href="https://rolling-scopes-school.github.io/faizievavenera-JSFEPRESCHOOL2022Q4/momentum/ ">
+          <div class="layout-2-columns">
+            <img src="./images/momentum.png" alt="momentum" class="project-img">
+            <div class="desc">
+              <p>Momentum</p>
+              <div class="technologies">
+                <img src="./images/html.png" alt="html">
+                <img src="./images/css.png" alt="css">
+                <img src="./images/sass.png" alt="sass">
+                <img src="./images/js.png" alt="js">
+
+              </div>
+            </div>  
+          </div>
+        </a>
+
+      </article>
+    </div>
+  </main>
+  <footer>
+    <a href="https://github.com/VeneraAleksandrova">
+    <div class="link">
+      <img src="./images/github.svg" alt="github" class="github-object">
+  </div>
+</a>
+    <p>2026</p>
+    <a href="https://rs.school/courses/javascript">
+        <div class="link">
+            <img src="./images/rs-school-logo.svg" alt="RSSchool">
+        </div>
+    </a>
+    
+  </footer>
+  </body>
 </html>
